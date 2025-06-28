@@ -1,0 +1,214 @@
+.body{
+    background-color: rgba(227, 236, 240, 0.894);
+    overflow-x: hidden;
+}
+
+.heading{
+    display:flex;
+    font-family: 'roboto',arial;
+    font-weight: 800;
+    justify-content: center;
+}
+
+.P1{
+    font-family: 'roboto',sans-serif;
+    font-size: 20px;
+    padding-top:clamp(40px ,2vw ,2rem);
+    padding-bottom:clamp(40px ,2vw ,2rem);
+}
+
+.slogan{
+    font-weight: bolder;
+    text-decoration: underline;
+    font-size:16px;
+}
+
+.navigation-buttons{
+    position:relative;
+    right:5px;
+    left:5px;
+    border-radius: 10px;
+    overflow-x: scroll;
+    z-index: 100;
+    display:flex;
+    justify-content: space-between;
+    border:2px solid #ddd
+    
+    
+
+}
+.navigation-buttons a{
+    font-family: 'roboto' sans-serif;
+    background-color:rgba(99, 194, 238, 0.688);
+    text-decoration: none;
+    padding:15px;
+    color:black;
+    border-radius: 5px;
+    margin: 10px;
+    
+}
+
+
+.container{
+    position: relative;
+    display:grid;
+    grid-template-rows: repeat(auto-fill,minmax(250px,1fr));
+    row-gap:170px ;
+}
+
+/* for max-width the code will be executed when the screen size is below
+the value you input*/
+/* for min-width the code will be executed when the screen size is above
+the value you input*/
+
+@media (max-width:468px){
+        .container{
+            grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+            column-gap: 20px;
+    }
+        .card1,.card3{
+            flex-direction: column-reverse;
+        }
+        .card2{
+            flex-direction: column;
+        }
+        .card4{
+            flex-direction: column !important;
+        }
+        
+}
+
+
+
+
+.card1{
+    display:flex;
+    position:relative;
+    align-items: center;
+}
+.text-area{
+    display:inline-flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.h3{
+    font-family: 'roboto',Arial;
+    font-weight: 700;
+    font-size: 25px;
+    padding-left: 20px;
+    
+    
+}
+.h4{
+    font-family:'roboto',arial;
+    font-weight: 600;
+    font-style: italic;
+}
+
+
+
+.card2{
+    display:flex;
+    align-items: center;
+
+}
+.card3{
+    display:flex;
+    align-items: center;
+    
+}
+
+
+.picture-container1 img,
+.picture-container2 img,
+.picture-container3 img, 
+.picture-container4 img{
+    width: 100%;
+    height: auto;
+    object-fit:scale-down;
+    display:block  
+}
+
+
+.card4{
+    display:flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+
+.footer-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));  
+    margin-top: 50px;
+    margin-bottom:0px;
+    background-color:#00d4 ;
+}
+
+.make-money-with-us{
+    line-height: 10px;
+    padding: 50px;
+}
+.earn-with-us-heading{
+    font-family: 'roboto',Arial;
+    font-size:700;
+}
+
+.customer-support{
+    line-height:normal;
+    padding:50px
+}
+.customer-support-heading{
+    font-family:'roboto',Arial;
+}
+
+
+
+.payment-methods{
+    padding:50px;
+    line-height: 7px;
+    display:inline-block
+}
+.payments{
+    font-family: 'roboto',Arial;
+}
+
+
+.our-services-line{
+    padding:50px;
+}
+
+
+.P3{
+    font-size:900;
+    font-family: 'roboto',Arial,sans-serif;
+    display:inline-block;
+    color:rgb(62, 59, 59);
+    
+}
+.P3:hover{
+    cursor:pointer;
+}
+
+
+.services1{
+    font-family: 'roboto',Arial;
+    margin-top: 8px;
+}
+.services{
+    font-family:'roboto',Arial;   
+}
+
+
+.trade-mark{
+    display:flex;
+    margin-top:0px;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+.copy-right{
+    font-family: 'roboto',sans-serif;
+}

@@ -1,0 +1,82 @@
+.footer-paragraph{
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.footer-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));  
+    margin-top: 100px;
+    margin-bottom:0px;
+    background-color:#00d4 ;
+}
+.customer-care{
+    line-height: normal;
+    padding:50px;
+}
+.make-money-with-us{
+    line-height: 10px;
+    padding: 50px;
+}
+.customer-support{
+    line-height:normal;
+    padding:50px
+}
+.vote-of-thanks{
+    font-family: 'roboto',Arial;
+    font-size:700;
+}
+
+.earn-with-us-heading{
+    font-family: 'roboto',Arial;
+    font-size:700;
+}
+
+.customer-support-heading{
+    font-family:'roboto',Arial;
+}
+
+.our-services-line{
+    padding:50px;
+
+}
+
+
+.P3{
+    font-size:900;
+    font-family: 'roboto',Arial,sans-serif;
+    display:inline-block;
+    color:rgb(62, 59, 59);
+    
+}
+.P3:hover{
+    cursor:pointer;
+}
+.services{
+    font-family:'roboto',Arial;   
+}
+.services1{
+    font-family: 'roboto',Arial;
+    margin-top: 8px;
+}
+.payment-methods{
+    padding:50px;
+    line-height: 7px;
+    display:inline-block
+}
+.payments{
+    font-family: 'roboto',Arial;
+}
+
+
+
+.trade-mark{
+    display:flex;
+    margin-top:0px;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+.copy-right{
+    font-family: 'roboto',sans-serif;
+}
